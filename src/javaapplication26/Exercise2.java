@@ -2,7 +2,7 @@ package javaapplication26;
 
 import java.util.Scanner;
 
-public class JavaApplication26 {
+public class Exercise2 {
 
     public static void main(String[] args) {
         // A travez de la Clase Scanner podemos leer el numero, 
@@ -30,7 +30,7 @@ public class JavaApplication26 {
                     System.out.print("El numero no es primo. ");
                 }
 
-                System.out.println("¿Desea continuar(S/N)?");
+                System.out.println("¿Desea continuar (S/N)?");
                 iter = scanner.next().charAt(0); // De esta manera podemos leer un caracter, agregandole el charAt(0)
             } else {
                 System.out.println("NOTA: el número debe ser mayor o igual a dos.");
